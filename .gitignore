@@ -1,0 +1,45 @@
+# Node
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+backend/venv/
+backend/ENV/
+backend/env/
+
+# Environment (NEVER commit these)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+out/
+.next/
+.serverless/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cloned repos by the app
+/tmp/
